@@ -74,7 +74,7 @@ def main() -> NoReturn:
         ax.yaxis.grid(True)
 
         # save and show the figure and free the memory
-        plt.savefig('dice_rolls.png', dpi=300)
+        plt.savefig('dice_histogram.png', dpi=300)
         plt.show()
         plt.close()
 
